@@ -132,4 +132,31 @@ form input{
 
 
 
+/* Admin */
 
+.pastelero div{
+    width: 650px;
+    text-align: center;
+}
+
+.pastelero table {
+    border-collapse: collapse;
+}
+
+.pastelero table td{
+    padding: 5px;
+}
+
+.pastelero table tr:nth-child(even) {
+    background-color: #FFE2C4;
+}
+
+.pastelero table .resalta:hover{
+    background-color: #8C6E50;
+    color: white;
+}
+
+.pastelero table th{
+    padding: 8px;
+    border-bottom: 5px #8C6E50 solid;
+}
